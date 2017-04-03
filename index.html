@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="js/scripts.js"></script>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <form id="new-item">
+            <div class="form-group">
+              <label for="new-list-item">Please enter an entry in your to-do list.</label>
+              <input type="text" class="form-control" id="new-list-item">
+            </div>
+            <div class="form-group">
+              <label for="new-item-description">Please enter a description for the task.</label>
+              <input type="text" class="form-control" id="new-item-description">
+            </div>
+            <button type="submit" class="btn">Submit</button>
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <form id="remove-form">
+            <button type="submit" class="btn">Remove Checked Items</button>
+            <div class="form-group">
+              <ul>
+              <span id="re-entry"></span>
+              </ul>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
